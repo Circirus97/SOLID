@@ -1,6 +1,6 @@
 package org.example.employees;
 
-public class CalculatePay {
+public class PayrollService {
 
     public void calculatePay() {
         // Lógica para calcular el salario

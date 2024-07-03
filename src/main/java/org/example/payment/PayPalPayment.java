@@ -2,7 +2,7 @@ package org.example.payment;
 
 public class PayPalPayment implements PaymentMethod{
     @Override
-    public void processPayment() {
+    public void processPayment(String paymentType) {
 
     }
 }

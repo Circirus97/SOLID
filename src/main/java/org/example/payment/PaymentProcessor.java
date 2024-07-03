@@ -1,6 +1,6 @@
 package org.example.payment;
 
-public class PaymentProcessor {
+public class PaymentProcessor implements PaymentMethod{
 
     public void processPayment(String paymentType) {
         if (paymentType.equals("credit")) {
@@ -9,4 +9,5 @@ public class PaymentProcessor {
             // Lógica para procesar el pago con PayPal
         }
     }
+
 }
